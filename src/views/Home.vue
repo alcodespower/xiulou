@@ -1,9 +1,9 @@
 <template>
     <div class="home">
-        <Navbars></Navbars>
+        <kNavbars></kNavbars>
         <kSwiper></kSwiper>
         <kGrid></kGrid>
-        <Footer></Footer>
+        <kFooter></kFooter>
     </div>
 </template>
 
@@ -12,8 +12,8 @@
 </style>
 
 <script type="text/javascript">
-    import Navbars from '../components/Navbars.vue'
-    import Footer from '../components/Footer.vue'
+    import kNavbars from '../components/kNavbar.vue'
+    import kFooter from '../components/kFooter.vue'
     import kSwiper from '../components/kSwiper.vue'
     import kGrid from '../components/kGrid.vue'
 
@@ -23,8 +23,8 @@
             return {}
         },
         components: {
-            Navbars,
-            Footer,
+            kNavbars,
+            kFooter,
             kSwiper,
             kGrid
         }
